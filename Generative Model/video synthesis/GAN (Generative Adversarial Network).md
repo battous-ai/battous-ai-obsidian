@@ -1,0 +1,2 @@
+- potentially unstable training
+- less diversity in generation
