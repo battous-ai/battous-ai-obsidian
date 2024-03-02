@@ -1,0 +1,7 @@
+- standard
+	- Dt and S
+	- performs badly when large mismatch between identities
+- relative
+	- motion between Dt and D1
+	- apply it to S
+	- requires that the pose of D1 be similar to the pose of S

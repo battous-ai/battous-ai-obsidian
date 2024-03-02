@@ -1,0 +1,25 @@
+- video driven (not audio driven)
+- decouple appearance and motion
+- from source image
+	- appearance (or identity)
+		- shape
+		- color ?
+- from driving image
+	- motion
+		- pose
+- driving video → motion transfer → static object in source image
+- motion transfer
+	- image warping
+		- optical flow
+			- from sparse motion-spcific keypoints
+		- feature map from source image to the feature domain of the driving image
+	- image inpainting 
+		- occlusion mask
+		- restore the missing regions
+- why unsupervised landmark detection
+	- priori knowledge of objects, such as 3D models, landmarks, domain labels, which relay on labeled data , only work for specific objects
+- how to represent motion
+	- transformation
+		- local affine transformation
+		- thin-plate spline
+	- optical flow
